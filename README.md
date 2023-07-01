@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a target="_blank" href="https://jonitha42.github.io/TeamPage-DevChallenges/">
+    <a href="https://jonitha42.github.io/TeamPage-DevChallenges/" target="_blank" >
       Demo
     </a>
     <span> | </span>
