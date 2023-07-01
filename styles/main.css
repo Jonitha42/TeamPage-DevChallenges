@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  max-height: 1489px;
+  padding: 24px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  gap: 200px;
+}
+
+.header-title {
+  min-width: 278px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -4.5%;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 439px;
+}
+
+.header-p-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.header-p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 439px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  min-width: 900px;
+  flex-wrap: wrap;
+}
+
+.gallery-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-block {
+  display: flex;
+  align-items: start;
+}
+
+.photo-block.two {
+  margin-top: 60px;
+}
+
+.photo-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.photo-img {
+  max-width: 238px;
+  max-height: 341px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-text {
+  color: #bdbdbd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+a {
+  color: #ff6d5b;
+  text-decoration: none;
+}
+
+/* RESPONSIVE DESIGN*/
+
+@media (min-width: 377px) and (max-width: 1395px) {
+  .wrapper {
+    min-width: 500px;
+    padding: 70px 48px;
+  }
+  .header {
+    display: flex;
+    text-align: start;
+    min-width: 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    min-width: 300px;
+  }
+
+  .gallery {
+    min-width: 700px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 32px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .gallery {
+    min-width: 148px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  .gallery-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: inline-block;
+  }
+
+  .photo-img {
+    max-width: 134px;
+    max-height: 200px;
+  }
+
+  .photo-text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .photo-block.two {
+    margin: 0;
+  }
+
+  .photo-block.right {
+    margin-top: 40px;
+  }
+}

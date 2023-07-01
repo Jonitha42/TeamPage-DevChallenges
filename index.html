@@ -11,75 +11,81 @@
   <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
-
+  <link rel="stylesheet" href="./styles/main.css">
   <title>Devchallenges</title>
 
-  <style>
-    body {
-      font-family: "Poppins", sans-serif;
-    }
-
-    ul {
-      padding-left: 24px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    .welcome {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .welcome-text {
-      margin-top: 30vh;
-      font-weight: 500;
-    }
-
-    .welcome-text p {
-      font-size: 1rem;
-      font-weight: 400;
-    }
-
-    .welcome-text h1 {
-      font-size: 1.5rem;
-    }
-
-    .welcome-text a {
-      color: #f7542e;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="welcome">
-    <div class="welcome-text">
-      <h1>
-        Welcome to
-        <a href="https://devchallenges.io/" target="_blank">devchallenges.io</a>
-      </h1>
+  <div class="wrapper">
+    <div class="header">
+      <h1 class="header-title">The creative crew</h1>
+      <div class="header-text">
+        <p class="header-p-title">Who we are</p>
+        <p class="header-p">We are team of creatively diverse. driven. innovate
+          individuals working in various locations from the world.
+        </p>
+      </div>
+    </div>
+    <div class="gallery">
 
-      <p>
-        If you have any questions, don't hesitate to ask on Discord. Here are
-        7 general steps to complete the challenge:
-      </p>
+      <!-- First column-->
+      <div class="photo">
+        <div class="photo-block">
+          <img class="photo-img" src="./img/photo1.png" alt="photo1">
+          <p class="photo-text">Product Owner</p>
+        </div>
+        <h2 class="gallery-title">Bill Mahoney</h2>
+      </div>
+
+      <div class="photo">
+        <div class="photo-block two right">
+          <img class="photo-img " src="./img/photo2.png" alt="photo2">
+          <p class="photo-text">Art Director</p>
+        </div>
+        <h2 class="gallery-title">Saba Cabrera</h2>
+      </div>
+
+      <div class="photo">
+        <div class="photo-block">
+          <img class="photo-img" src="./img/photo3.png" alt="photo3">
+          <p class="photo-text">TechLead</p>
+        </div>
+        <h2 class="gallery-title">Shae Le</h2>
+      </div>
+
+      <!-- Second Column-->
+
+      <div class="photo">
+        <div class="photo-block right">
+          <img class="photo-img" src="./img/photo4.png" alt="photo4">
+          <p class="photo-text">Ux Designer</p>
+        </div>
+        <h2 class="gallery-title">Skylah Lu</h2>
+      </div>
+
+      <div class="photo">
+        <div class="photo-block two">
+          <img class="photo-img" src="./img/photo5.png" alt="photo5">
+          <p class="photo-text">Developer</p>
+        </div>
+        <h2 class="gallery-title">Griff Richards</h2>
+      </div>
+
+      <div class="photo">
+        <div class="photo-block right">
+          <img class="photo-img" src="./img/photo6.png" alt="photo6">
+          <p class="photo-text">Developer</p>
+        </div>
+        <h2 class="gallery-title">Stan John</h2>
+      </div>
+
     </div>
 
-    <ul>
-      <li><b>Step 1:</b> Create a new repository on github</li>
-      <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-      <li>
-        <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-      </li>
-      <li><b>Step 4:</b> Complete all user stories</li>
-      <li><b>Step 5:</b> Update README.md</li>
-      <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-      <li>
-        <b>Step 7:</b> Share your solution on Discord, Twitter and other
-        platforms to ask for feedback
-      </li>
-    </ul>
+    <div class="footer">
+      <p class="footer-text">Created by: <span><a href="https://www.linkedin.com/in/jonathan-e-pardo/" title="Linkedin"
+            target="_blank">Jonitha42</a></span> - devChallenges.io </p>
+    </div>
   </div>
 </body>
 
